@@ -1,0 +1,1 @@
+docker run --name java-server --net=bridge -p 8088:8088 bor-app

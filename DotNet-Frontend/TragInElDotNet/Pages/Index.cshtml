@@ -1,0 +1,54 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    @* var variable = ViewData["Variable"]; *@
+}
+
+<div class="text-dark">
+    <h1 class="display-4">Welcome</h1>
+    <h3>General information</h3>
+
+    <img src="https://static-00.iconduck.com/assets.00/dotnet-icon-512x512-1rx2815d.png" width="150px" height="150px">
+    <img src="https://i.pinimg.com/originals/36/fd/a1/36fda1085cffacaebc7613ab8f227351.png" width="150px"
+        height="150px">
+    <img src="https://pngimg.com/uploads/mysql/mysql_PNG23.png" width="150px" height="150px">
+    <img src="https://www.fileeagle.com/data/2015/08/HeidiSQL.png" width="150px" height="150px">
+    <img src="https://alternative.me/media/256/apache-maven-icon-kh9tgmmob2lmuoko-c.png" height="150px">
+
+    <p>This is a client web-application running on .NET which communicates with a Maven Spring backend.</p>
+    <p>Technologies used in the backend includes (but not limited to):</p>
+    <ul>
+        <li>SpringBoot;</li>
+        <li>JpaRepository;</li>
+        <li>Microservices.</li>
+    </ul>
+    <br>
+
+    <h3>SQL</h3>
+    <p>The Java backend manages a HeidiSQL(MariaDB/MySQL server) with the following tables:</p>
+    <ul>
+        <li>Account;</li>
+        <li>Employee;</li>
+        <li>Client;</li>
+        <li>User.</li>
+    </ul>
+    <p>These tables contain primary keys for their id (which has different names from table to table). The only table
+        with foreign keys is the Account table. It contains four columns (id, client id, employee id and balance) to
+        which client id and employee id are foreign keys to the primary keys in Client and Employee tables.</p>
+    <p></p>
+
+    <h3>Microservices</h3>
+    <p>The microservices technology in this application uses the Model-View-Controller architecture on top of
+        SpringBoot, together with Maven.</p>
+    <p>
+        In this project. There are 4 model classes as mentioned above (Client, Account, User, Employee) using standard
+        &#64;Entity annotations together with some logic regarding table names, primary keys and auto-increment of id.
+    </p>
+    <p>The 4 repositories that make use of the model classes mentioned above extend JpaRepository and make use of their
+        pre-defined queries to get the information from the tables.
+    </p>
+
+    <p>There is a service for each of the aforementioned repositories in which the custom logic resides. Here there is
+        some checking regarding the modification and creation of new entries in the DB.</p>
+</div>

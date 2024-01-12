@@ -1,0 +1,100 @@
+﻿@page
+@model TragInElDotNet.Pages.EmployeeModel
+@{
+    ViewData["Title"] = "Employee page";
+}
+
+<style>
+    table {
+        width: 100%;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid white;
+    }
+
+    .prostii {
+        width: 100%;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .form-class {
+        text-align: center;
+        width: 100%-6rem fit-content;
+        border-radius: 2px;
+    @*position:relative;*@font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 3rem;
+        min-width: 5rem;
+    }
+
+    .tr-header {
+        font-weight: bold;
+    }
+
+    form {
+        border: 1px solid white;
+        margin-bottom: 3 rem;
+    }
+
+    tr,
+    td {
+        border: 1px solid white;
+    }
+</style>
+@using RazorPagesEmployee.Models;
+
+<body>
+    <div class="prostii">
+        <form method="post" class="form-class">
+            <p>AddEmployee</p>
+            <input type="text" name="id" value="" readonly placeholder="Id Not Needed">
+            <input type="text" name="name" value="" placeholder="Employee Name">
+            <input type="text" name="surname" value="" placeholder="Employee Surname">
+            <input type="text" name="npc" value="" placeholder="Numeric Personal Code">
+            <input type="text" name="phoneNr" value="" placeholder="Phone#">
+            <input type="text" name="salary" value="" placeholder="Salary">
+            <button asp-page-handler="Add">Add</button>
+        </form>
+        <form method="post" class="form-class">
+            <p>ModifyEmployee</p>
+            <input type="text" name="id" value="" placeholder="Id Needed">
+            <input type="text" name="name" value="" placeholder="Employee Name">
+            <input type="text" name="surname" value="" placeholder="Employee Surname">
+            <input type="text" name="npc" value="" placeholder="Numeric Personal Code">
+            <input type="text" name="phoneNr" value="" placeholder="Phone#">
+            <input type="text" name="salary" value="" placeholder="Salary">
+            <button asp-page-handler="Modify">Modify</button>
+        </form>
+
+        <form method="post" class="form-class">
+            <p>Remove From Existance</p>
+            <input type="text" name="id" value="">
+            <button asp-page-handler="Delete">Delete</button>
+        </form>
+    </div>
+    @if (Model != null && Model.employees != null)
+    {
+        <table>
+            <tr class="tr-header">
+                <td>Id</td>
+                <td>Name</td>
+                <td>Surname</td>
+                <td>NPC</td>
+                <td>Phone#</td>
+                <td>Salary</td>
+            </tr>
+            @foreach (Employee employee in Model.employees)
+            {
+                <tr>
+                    <td>@employee.id</td>
+                    <td>@employee.name</td>
+                    <td>@employee.surname</td>
+                    <td>@employee.npc</td>
+                    <td>@employee.phoneNr</td>
+                    <td>@employee.salary</td>
+                </tr>
+            }
+
+        </table>
+    }
+</body>

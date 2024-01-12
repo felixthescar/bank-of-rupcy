@@ -1,0 +1,1 @@
+docker run --name sql-server --network=bridge -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql

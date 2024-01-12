@@ -1,0 +1,93 @@
+﻿@page
+@model TragInElDotNet.Pages.AccountModel
+@{
+    ViewData["Title"] = "Account page";
+}
+
+<style>
+    table {
+        width: 100%;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid white;
+    }
+
+    .prostii {
+        width: 100%;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .form-class {
+        text-align: center;
+        width: 100%-6rem fit-content;
+        border-radius: 2px;
+    @*position:relative;*@font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 3rem;
+        min-width: 5rem;
+    }
+
+    .tr-header {
+        font-weight: bold;
+    }
+
+    form {
+        border: 1px solid white;
+        margin-bottom: 3 rem;
+    }
+
+    tr,
+    td {
+        border: 1px solid white;
+    }
+</style>
+
+@using RazorPagesAccount.Models;
+
+<body>
+    <div class="prostii">
+        <form method="post" class="form-class">
+            <p>AddAccount</p>
+            <input type="text" name="id" value="" readonly placeholder="Id Not Needed">
+            <input type="text" name="client_id" value="" placeholder="Client Id">
+            <input type="text" name="angajat_id" value="" placeholder="Employee Id">
+            <input type="text" name="balance" value="" placeholder="Balance">
+            <button asp-page-handler="Add">Add</button>
+        </form>
+        <form method="post" class="form-class">
+            <p>ModifyAccount</p>
+            <input type="text" name="id" value="" placeholder="Id Needed">
+            <input type="text" name="client_id" value="" placeholder="Client Id">
+            <input type="text" name="angajat_id" value="" placeholder="Employee Id">
+            <input type="text" name="balance" value="" placeholder="Balance">
+            <button asp-page-handler="Modify">Modify</button>
+        </form>
+
+        <form method="post" class="form-class">
+            <p>Remove From Existance</p>
+            <input type="text" name="id" value="">
+            <button asp-page-handler="Delete">Delete</button>
+        </form>
+    </div>
+    @if (Model != null && Model.accounts != null)
+    {
+        <table>
+            <tr class="tr-header">
+                <td>Id</td>
+                <td>Client Id</td>
+                <td>Employee Id</td>
+                <td>Balance</td>
+            </tr>
+            @foreach (Account account in Model.accounts)
+            {
+                <tr>
+                    <td>@account.id</td>
+                    <td>@account.clientId</td>
+                    <td>@account.empId</td>
+                    <td>@account.balance</td>
+                </tr>
+            }
+
+        </table>
+    }
+</body>

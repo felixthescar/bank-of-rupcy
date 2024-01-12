@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TragInElDotNet.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TragInElDotNet.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TragInElDotNet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TragInElDotNet.props",
+      "PackagePath": "build\\TragInElDotNet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TragInElDotNet.props",
+      "PackagePath": "buildMultiTargeting\\TragInElDotNet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TragInElDotNet.props",
+      "PackagePath": "buildTransitive\\TragInElDotNet.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
