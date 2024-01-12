@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U0faBM1l2I7jt9w6oHcBFK3nAdE/FMJMfyWB6BgtsnCn9yGfYk1gw1aiNKS3VhZu95i8HlKW52eJSRe/p4zE6Q==",
+  "dgSpecHash": "x5yR2AZ8OrO0uoezBVlJzF5m4z7lj/ZGI0JLZ7MjDjHkuMME714L4Hc4ia6B28slelaHnv5vRG4bc8jn64QyhQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\TragInElDotNet.csproj",
+  "projectFilePath": "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\TragInElDotNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felix\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\felix\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

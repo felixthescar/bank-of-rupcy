@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\TragInElDotNet.csproj": {}
+    "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\TragInElDotNet.csproj": {}
   },
   "projects": {
-    "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\TragInElDotNet.csproj": {
+    "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\TragInElDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\TragInElDotNet.csproj",
+        "projectUniqueName": "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\TragInElDotNet.csproj",
         "projectName": "TragInElDotNet",
-        "projectPath": "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\TragInElDotNet.csproj",
+        "projectPath": "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\TragInElDotNet.csproj",
         "packagesPath": "C:\\Users\\felix\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\obj\\",
+        "outputPath": "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felix\\AppData\\Roaming\\NuGet\\NuGet.Config"

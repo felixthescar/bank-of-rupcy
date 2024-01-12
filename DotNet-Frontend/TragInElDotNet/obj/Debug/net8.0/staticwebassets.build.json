@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yd3ZpGBoYtObEUGSp0YusKRTaPRuDTidor+HMaV5PXA=",
+  "Hash": "1IVEZzqga0cahSHxlElmJNYA5LdGZkzhMS7E3BV0PiU=",
   "Source": "TragInElDotNet",
   "BasePath": "_content/TragInElDotNet",
   "Mode": "Default",
@@ -9,10 +9,10 @@
   "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TragInElDotNet.styles.css",
+      "Identity": "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TragInElDotNet.styles.css",
       "SourceId": "TragInElDotNet",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TragInElDotNet",
       "RelativePath": "TragInElDotNet.styles.css",
       "AssetKind": "All",
@@ -25,13 +25,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TragInElDotNet.styles.css"
+      "OriginalItemSpec": "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TragInElDotNet.styles.css"
     },
     {
-      "Identity": "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TragInElDotNet.bundle.scp.css",
+      "Identity": "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TragInElDotNet.bundle.scp.css",
       "SourceId": "TragInElDotNet",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TragInElDotNet",
       "RelativePath": "TragInElDotNet.bundle.scp.css",
       "AssetKind": "All",
@@ -44,7 +44,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\felix\\Desktop\\TragInElDotNet\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TragInElDotNet.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Users\\felix\\eclipse-workspace\\docker-edition-bankofrupcy\\DotNet-Frontend\\TragInElDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TragInElDotNet.bundle.scp.css"
     }
   ]
 }

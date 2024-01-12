@@ -17,51 +17,51 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TragInElDotNet
 build_property.RootNamespace = TragInElDotNet
-build_property.ProjectDir = c:\Users\felix\Desktop\TragInElDotNet\TragInElDotNet\
+build_property.ProjectDir = c:\Users\felix\eclipse-workspace\docker-edition-bankofrupcy\DotNet-Frontend\TragInElDotNet\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\felix\Desktop\TragInElDotNet\TragInElDotNet
+build_property.MSBuildProjectDirectory = c:\Users\felix\eclipse-workspace\docker-edition-bankofrupcy\DotNet-Frontend\TragInElDotNet
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/felix/Desktop/TragInElDotNet/TragInElDotNet/Pages/Accounts.cshtml]
+[c:/Users/felix/eclipse-workspace/docker-edition-bankofrupcy/DotNet-Frontend/TragInElDotNet/Pages/Accounts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/felix/Desktop/TragInElDotNet/TragInElDotNet/Pages/Clients.cshtml]
+[c:/Users/felix/eclipse-workspace/docker-edition-bankofrupcy/DotNet-Frontend/TragInElDotNet/Pages/Clients.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/felix/Desktop/TragInElDotNet/TragInElDotNet/Pages/Employees.cshtml]
+[c:/Users/felix/eclipse-workspace/docker-edition-bankofrupcy/DotNet-Frontend/TragInElDotNet/Pages/Employees.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/felix/Desktop/TragInElDotNet/TragInElDotNet/Pages/Error.cshtml]
+[c:/Users/felix/eclipse-workspace/docker-edition-bankofrupcy/DotNet-Frontend/TragInElDotNet/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/felix/Desktop/TragInElDotNet/TragInElDotNet/Pages/Index.cshtml]
+[c:/Users/felix/eclipse-workspace/docker-edition-bankofrupcy/DotNet-Frontend/TragInElDotNet/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/felix/Desktop/TragInElDotNet/TragInElDotNet/Pages/Privacy.cshtml]
+[c:/Users/felix/eclipse-workspace/docker-edition-bankofrupcy/DotNet-Frontend/TragInElDotNet/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/felix/Desktop/TragInElDotNet/TragInElDotNet/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/felix/eclipse-workspace/docker-edition-bankofrupcy/DotNet-Frontend/TragInElDotNet/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/felix/Desktop/TragInElDotNet/TragInElDotNet/Pages/_ViewImports.cshtml]
+[c:/Users/felix/eclipse-workspace/docker-edition-bankofrupcy/DotNet-Frontend/TragInElDotNet/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/felix/Desktop/TragInElDotNet/TragInElDotNet/Pages/_ViewStart.cshtml]
+[c:/Users/felix/eclipse-workspace/docker-edition-bankofrupcy/DotNet-Frontend/TragInElDotNet/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/felix/Desktop/TragInElDotNet/TragInElDotNet/Pages/Shared/_Layout.cshtml]
+[c:/Users/felix/eclipse-workspace/docker-edition-bankofrupcy/DotNet-Frontend/TragInElDotNet/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-m82zwg14as

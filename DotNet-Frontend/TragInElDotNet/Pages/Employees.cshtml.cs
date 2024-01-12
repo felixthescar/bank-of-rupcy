@@ -55,7 +55,7 @@ public class EmployeeModel : PageModel
         reqStream.Write(bytearray, 0, bytearray.Length);
         WebResponse response = httpWebRequest.GetResponse();
 
-        return Redirect("./Employee");
+        return Redirect("./Employees");
     }
 
     public async Task<IActionResult> OnPostModify(int id, string name, string surname, string npc, string phoneNr, string salary)
@@ -81,7 +81,7 @@ public class EmployeeModel : PageModel
             reqStream.Write(bytearray, 0, bytearray.Length);
             WebResponse response = httpWebRequest.GetResponse();
         }
-        return Redirect("./Employee");
+        return Redirect("./Employees");
     }
 
     public async Task<IActionResult> OnPostDelete(int id)
@@ -92,6 +92,6 @@ public class EmployeeModel : PageModel
             httpWebRequest.Method = "DELETE";
             WebResponse response = httpWebRequest.GetResponse();
         }
-        return Redirect("./Employee");
+        return Redirect("./Employees");
     }
 }

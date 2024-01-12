@@ -54,7 +54,7 @@ public class AccountModel : PageModel
         reqStream.Write(bytearray, 0, bytearray.Length);
         WebResponse response = httpWebRequest.GetResponse();
 
-        return Redirect("./Account");
+        return Redirect("./Accounts");
     }
 
     public async Task<IActionResult> OnPostModify(int id, long balance, long angajat_id, long client_id)
@@ -77,7 +77,7 @@ public class AccountModel : PageModel
             reqStream.Write(bytearray, 0, bytearray.Length);
             WebResponse response = httpWebRequest.GetResponse();
         }
-        return Redirect("./Account");
+        return Redirect("./Accounts");
     }
 
     public async Task<IActionResult> OnPostDelete(int id)
@@ -88,6 +88,6 @@ public class AccountModel : PageModel
             httpWebRequest.Method = "DELETE";
             WebResponse response = httpWebRequest.GetResponse();
         }
-        return Redirect("./Account");
+        return Redirect("./Accounts");
     }
 }
