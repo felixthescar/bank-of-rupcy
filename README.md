@@ -1,10 +1,14 @@
-docker network create container-bridge --driver bridge
+# Bank Of Rupcy - Complete Edition
 
-docker run --name sql-server -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
-docker run --name sql-server --network=bridge -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
+This application has been developed this application with the intention of showcasing it during my university presentation as part of the Distributed Services Oriented Architectures course.
 
-docker run --name java-server --network=host -p 8088:8088 bor-app
-docker run --name java-server --net=bridge -p 8088:8088 bor-app
+This project integrates various technologies, encompassing (but not limited to):
+- Docker
+- MySQL/MariaDB Server
+- DotNet Frontend using Razorpages
+- Java Microservices
+- Maven and SpringBoot
 
-docker network connect container-bridge sql-server2
-docker network connect container-bridge java-server2
+The Spring Backend, in conjunction with the MySQL Server, has been containerized utilizing Docker. The backend employs a customized image, accessible as a Dockerfile located within the Spring-Backend directory in this repository.
+
+The decision to refrain from containerizing the frontend into a custom Docker image is attributed to constraints in time and effort experienced during the final stages of development.
