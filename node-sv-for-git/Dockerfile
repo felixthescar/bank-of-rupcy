@@ -1,17 +1,23 @@
-FROM node:10-alpine
+# Use an official Node.js runtime as a parent image
+FROM node:14
 
-RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
+# Install curl
+RUN apt-get update && apt-get install -y curl
 
-WORKDIR /home/node/app
+# Set the working directory
+WORKDIR /usr/src/app
 
+# Copy package.json and package-lock.json
 COPY package*.json ./
 
-USER node
-
+# Install dependencies
 RUN npm install
 
-COPY --chown=node:node . .
+# Copy the rest of your application code and other files
+COPY . .
 
+# Expose the port your app runs on
 EXPOSE 8069
 
-CMD [ "node", "server.js" ]
+# Define the command to run your app
+CMD ["node", "server.js"]
