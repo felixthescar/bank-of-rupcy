@@ -1,0 +1,3 @@
+account,balance,account/createAccount
+employee,phoneNr,employee/createEmployee
+client,phoneNr,client/createClient
