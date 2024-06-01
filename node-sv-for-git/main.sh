@@ -60,7 +60,7 @@ function addRowsFromCSV() {
 
       # doing the POST request
       # THE MOST IMPORTANT LINE OF 'EM ALL
-      curl --json $row $addr/$request -s -o /dev/null # mute output to not interfere with node / FE
+      curl -H "Content-Type: application/json" -d "$row" "$addr/$request" -s -o /dev/null # mute output to not interfere with node / FE
       # echo \nSuccessfully inserted row into table $table
     else
       line=$(echo $p | tr "," "\n")
