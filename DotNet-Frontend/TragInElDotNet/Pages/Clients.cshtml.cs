@@ -15,7 +15,7 @@ namespace TragInElDotNet.Pages;
 [IgnoreAntiforgeryToken]
 public class ClientModel : PageModel
 {
-    public string url = "http://localhost:8088/client";
+    public string url = "http://172.17.0.1:8088/client";
     public List<Client> clients = new List<Client>();
     private readonly ILogger<ClientModel> _logger;
 
