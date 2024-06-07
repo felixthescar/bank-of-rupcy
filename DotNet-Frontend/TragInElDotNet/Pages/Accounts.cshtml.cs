@@ -15,7 +15,7 @@ namespace TragInElDotNet.Pages;
 [IgnoreAntiforgeryToken]
 public class AccountModel : PageModel
 {
-    public string url = "http://localhost:8088/account";
+    public string url = "http://172.17.0.1:8088/account";
     public List<Account> accounts = new List<Account>();
     private readonly ILogger<AccountModel> _logger;
 
