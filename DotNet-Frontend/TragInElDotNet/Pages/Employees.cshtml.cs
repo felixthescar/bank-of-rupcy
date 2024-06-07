@@ -15,7 +15,7 @@ namespace TragInElDotNet.Pages;
 [IgnoreAntiforgeryToken]
 public class EmployeeModel : PageModel
 {
-    public string url = "http://localhost:8088/employee";
+    public string url = "http://172.17.0.1:8088/employee";
     public List<Employee> employees = new List<Employee>();
     private readonly ILogger<EmployeeModel> _logger;
 
