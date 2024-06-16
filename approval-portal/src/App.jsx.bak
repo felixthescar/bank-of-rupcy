@@ -1,0 +1,74 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  const [selectedFile, setSelectedFile] = useState(null);
+
+  const [data, setData] = useState(null);
+
+  const handleFileChange = (event) => {
+    setSelectedFile(event.target.files[0]);
+  };
+
+  const handleUpload = () => {
+    if (selectedFile) {
+      console.log('upload file:', selectedFile);
+      
+      const formData = new FormData();
+      formData.append('csv', selectedFile);
+      fetch('http://10.241.109.82:8069/upload', {
+         method: 'POST',
+         body: formData
+       })
+       .then(response => {
+         console.log('uploaded');
+         response.json().then(res => setData(res));
+       })
+       .catch(error => {
+         console.error('error: ', error);
+       });
+    } else {
+      console.warn('no file selected');
+    }
+  };
+
+  console.log(data);
+
+  
+
+  return (
+    <div>
+      <div>
+        <h2>File Upload</h2>
+        <input type="file" onChange={handleFileChange} />
+        <button onClick={handleUpload}>Upload</button>
+      </div>
+      {data.length > 0 && (
+        <table>
+          <thead>
+            <tr>
+              {Object.keys(data[0]).map((key) => (
+                <th key={key}>{key}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((item, index) => (
+              <tr key={index}>
+                {Object.values(item).map((value, idx) => (
+                  <td key={idx}>{value}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+    </div>
+  );
+}
+
+export default App
+
+// https://www.makeuseof.com/react-generate-table-from-json/
